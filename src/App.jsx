@@ -1,6 +1,11 @@
-import { BrowserRouter } from 'react-router-dom';
-import { About, Contact, Experience, Feedbacks, Hero, Tech, Works, Navbar, StarsCanvas, Footer } from './components';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+import {Navbar, Footer } from './components';
+import Home from './pages/Home';
+import AboutPage from './pages/AboutPage';
+import Portfolio from './pages/Portfolio';
+import Certificates from './pages/Certificates';
+import ContactPage from './pages/ContactPage';
 
 const App = () => {
   return (
@@ -8,17 +13,14 @@ const App = () => {
     <div className="relative z-0 bg-primary">
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         <Navbar />
-        <Hero />
       </div>
-      <About />
-      <Experience />
-      <Tech />
-      <Works />
-      <Feedbacks />
-      <div className="relative z-0">
-        <Contact />    
-        <StarsCanvas />
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/about" element={<AboutPage />}></Route>
+        <Route path="/portfolio" element={<Portfolio />}></Route>
+        <Route path="/certificates" element={<Certificates />}></Route>
+        <Route path="/contactPage" element={<ContactPage />}></Route>
+      </Routes>
       <Footer />
     </div>
    </BrowserRouter>

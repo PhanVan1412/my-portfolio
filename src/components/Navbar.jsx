@@ -32,7 +32,8 @@ const Navbar = () => {
                   hover:text-white text-[18px] font-medium cursor-pointer`}
                   onClick={() => setActive(link.title)}
                 >
-                  <Link to={`#${link.id}`}>{link.title}</Link>
+                  {console.log(link.title)}
+                  <Link to={`${link.id}`}>{link.title}</Link>
                 </li>
               )
             })
@@ -53,7 +54,7 @@ const Navbar = () => {
                         setActive(link.title);
                       }}
                     >
-                      <Link to={`#${link.id}`}>{link.title}</Link>
+                      <Link to={`${link.id}`}>{link.title}</Link>
                     </li>
                   )
                 })

@@ -16,10 +16,40 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
   const handelChange = (e) => {
-
+    console.log("this is value contact 22: ", e.target.value);
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
   }
   const handelSubmit = (e) => {
+    e.preventDefault();
+    console.log("this emails submit!");
 
+    setLoading(true);
+    emaijs.send(
+      'service_s7jl9hl', 
+      'template_5bi7xsf', 
+      {
+        from_name: form.name,
+        to_name: 'P&T',
+        from_email: form.email,
+        to_email: 'austinphan2022@gmail.com',
+        message: form.message
+      },
+      'n2DXqgt7TsC4NAGxy'
+      )
+      .then(() => {
+        setLoading(false);
+        alert('Thank you. I will get back to you as soon as possible.');
+        setForm( {
+          name: '',
+          email: '',
+          message: ''
+        })
+      }, (error) => {
+        setLoading(false);
+        console(error);
+        alert('Something went wrong.')
+      })
   }
   
   return (

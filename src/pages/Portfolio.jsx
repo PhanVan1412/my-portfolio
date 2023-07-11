@@ -1,8 +1,12 @@
 import React from 'react';
+import { Works, Tech } from '../components';
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+   <>
+    <Works />
+    <Tech />
+   </>
   )
 }
 

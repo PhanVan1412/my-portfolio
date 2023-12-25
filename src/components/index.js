@@ -7,12 +7,10 @@ import Experience from "./Experience";
 import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
-import Footer from "./Footer"; 
+import Footer from "./Footer";
 import CanvasLoader from "./Loader";
 import { EarthCanvas } from "./canvas";
 import { StarsCanvas } from "./canvas";
-
-
 
 export {
   Hero,
@@ -25,7 +23,7 @@ export {
   Contact,
   Footer,
   CanvasLoader,
-  EarthCanvas, 
-//   ComputersCanvas, 
-  StarsCanvas
+  EarthCanvas,
+  //   ComputersCanvas,
+  StarsCanvas,
 };

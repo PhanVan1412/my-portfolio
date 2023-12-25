@@ -1,13 +1,13 @@
-import React from 'react';
-import { Works, Tech } from '../components';
+import React from "react";
+import { Works, Tech } from "../components";
 
 const Portfolio = () => {
   return (
-   <>
-    <Works />
-    <Tech />
-   </>
-  )
-}
+    <>
+      <Works />
+      <Tech />
+    </>
+  );
+};
 
 export default Portfolio;

@@ -30,6 +30,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import c1 from "./c1.png";
+import c2 from "./c2.png";
+import c3 from "./c3.png";
+import c4 from "./c4.png";
+import c5 from "./certificate-coursera.png";
 export {
   logo,
   backend,
@@ -59,4 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  c1,
+  c2,
+  c3,
+  c4,
+  c5
 };

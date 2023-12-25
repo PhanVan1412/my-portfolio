@@ -1,5 +1,5 @@
-import React from 'react';
-import { About, Experience } from '../components';
+import React from "react";
+import { About, Experience } from "../components";
 
 const AboutPage = () => {
   return (
@@ -7,7 +7,7 @@ const AboutPage = () => {
       <About />
       <Experience />
     </>
-  )
-}
+  );
+};
 
 export default AboutPage;

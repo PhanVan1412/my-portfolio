@@ -1,5 +1,29 @@
 {
   "hello": "Xin chào, mình là ",
   "desch1": "Là một nhà phát triển website, xây dựng",
-  "desch2": "giao diện người dùng và các ứng dụng web"
+  "desch2": "giao diện người dùng và các ứng dụng web",
+
+  "title1": "Tổng quan",
+  "subTitle1": "Giới thiệu",
+  "desco1": "Mình là một nhà phát triển phần mềm, có kinh nghiệm về TypeScript và JavaScript, đồng thời có kiến ​​thức chuyên môn về các framework như React, Angualar và Nodejs. Mình là người học hỏi nhanh và cộng tác chặt chẽ với khách hàng để tạo ra các giải pháp hiệu quả, có thể mở rộng và thân thiện với người dùng nhằm giải quyết các vấn đề trong thực tế. Hãy cùng nhau làm việc để biến ý tưởng của bạn thành hiện thực!",
+
+  "title2": "Kinh nghiệm",
+  "subTitle2": "Những gì mình đã làm cho đến hiện tại",
+
+  "title3": "Dự án",
+  "subTitle3": "Công việc của mình",
+  "descw1": "Các dự án sau đây thể hiện kỹ năng và kinh nghiệm của mình thông qua các ví dụ thực tế về công việc. Mỗi dự án được mô tả ngắn gọn với các liên kết đến kho mã và các bản demo trực tiếp trong đó. Nó phản ánh khả năng của mình trong việc giải quyết các vấn đề phức tạp, làm việc với các công nghệ khác nhau và quản lý dự án một cách hiệu quả.",
+
+  "title4": "Lời chứng thực",
+  "subTitle4": "Người khác nói gì",
+
+  "title5": "Liên hệ",
+  "subTitle5": "Liên hệ với mình",
+  "clabel1": "Tên",
+  "clabel2": "Email",
+  "clabel3": "Tin nhắn",
+  "cplaceholder1": "Nhập tên",
+  "cplaceholder2": "Nhập email",
+  "cplaceholder3": "Nhập tin nhắn",
+  "cbutton": "Gửi"
 }

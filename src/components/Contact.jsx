@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emaijs from "@emailjs/browser";
+import { useTranslation } from "react-i18next";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -8,6 +9,7 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
+  const { t } = useTranslation();
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -60,8 +62,8 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact</h3>
+        <p className={styles.sectionSubText}>{t("subTitle5")}</p>
+        <h3 className={styles.sectionHeadText}>{t("title5")}</h3>
 
         <form
           ref={formRef}
@@ -69,36 +71,36 @@ const Contact = () => {
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Name</span>
+            <span className="text-white font-medium mb-4">{t("clabel1")}</span>
             <input
               type="text"
               name="name"
               value={form.name}
               onChange={handelChange}
-              placeholder="Enter name"
+              placeholder={t("cplaceholder1")}
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Email</span>
+            <span className="text-white font-medium mb-4">{t("clabel2")}</span>
             <input
               type="email"
               name="email"
               value={form.email}
               onChange={handelChange}
-              placeholder="Enter email"
+              placeholder={t("cplaceholder2")}
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Message</span>
+            <span className="text-white font-medium mb-4">{t("clabel3")}</span>
             <textarea
               rows="7"
               type="text"
               name="message"
               value={form.message}
               onChange={handelChange}
-              placeholder="Enter Message"
+              placeholder={t("cplaceholder3")}
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
             />
           </label>
@@ -106,7 +108,7 @@ const Contact = () => {
             type="submit"
             className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
           >
-            Send
+            {t("cbutton")}
           </button>
         </form>
       </motion.div>

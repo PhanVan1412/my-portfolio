@@ -1,5 +1,34 @@
 {
   "hello": "Hi, I'm ",
   "desch1": "I'm a web developer, building user",
-  "desch2": "interfaces and web applications"
+  "desch2": "interfaces and web applications",
+
+  "title1": "Introduction",
+  "subTitle1": "Overview",
+  "desco1": "I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Angular, and NodeJS. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!",
+
+  "title2": "Work Experience",
+  "subTitle2": "What I have done so far",
+
+  "title3": "Project",
+  "subTitle3": "My work",
+  "descw1": "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
+
+  "title4": "Testimonials",
+  "subTitle4": "What others say",
+
+  "title5": "Contact",
+  "subTitle5": "Get in touch",
+  "clabel1": "Name",
+  "clabel2": "Email",
+  "clabel3": "Message",
+  "cplaceholder1": "Enter your name",
+  "cplaceholder2": "Enter your email",
+  "cplaceholder3": "Enter your message",
+  "cbutton": "Send",
+
+  "menu": {
+    "menu1": "My Projects",
+    "menu 2": "My Projects 2"
+  }
 }

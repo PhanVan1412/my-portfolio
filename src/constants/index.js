@@ -15,59 +15,59 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  ptit,
   c1,
   c2,
   c3,
   c4,
   c5,
+  freelancer,
+  onlead,
+  mwg,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "",
-    title: "Home",
+    title: "home",
   },
   {
     id: "about",
-    title: "About",
+    title: "about",
   },
   {
     id: "portfolio",
-    title: "Portfolio",
+    title: "project",
   },
   {
     id: "certificates",
-    title: "Certificates",
+    title: "certificates",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "contact",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "webDeveloper",
     icon: web,
   },
   {
-    title: "ReactJS Developer",
+    title: "reactJSDeveloper",
     icon: mobile,
   },
   {
-    title: "Angular Developer",
+    title: "angularDeveloper",
     icon: backend,
   },
   {
-    title: "NodeJS Developer",
+    title: "nodeJSDeveloper",
     icon: creator,
   },
 ];
@@ -130,9 +130,9 @@ const technologies = [
 const experiences = [
   {
     title: "Scientific Research",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
+    company_name: "IoT System Lab PTIT",
+    icon: ptit,
+    iconBg: "#E6DEDD",
     date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -142,10 +142,10 @@ const experiences = [
     ],
   },
   {
-    title: "Scientific Research",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    title: "Wordpress Developer",
+    company_name: "Onlead",
+    icon: onlead,
+    iconBg: "#f0f0f0",
     date: "Jan 2021 - Feb 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -155,10 +155,10 @@ const experiences = [
     ],
   },
   {
-    title: "Wordpress Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
+    title: "Web Developer",
+    company_name: "Freelancer",
+    icon: freelancer,
+    iconBg: "#f0f0f0",
     date: "Jan 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -168,9 +168,9 @@ const experiences = [
     ],
   },
   {
-    title: "Angular Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Web Developer",
+    company_name: "MWG",
+    icon: mwg,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [

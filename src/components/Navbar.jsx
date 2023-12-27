@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
@@ -7,6 +8,7 @@ import Select from "./Select";
 import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   return (
@@ -38,7 +40,7 @@ const Navbar = () => {
                   hover:text-white text-[18px] font-medium cursor-pointer`}
                 onClick={() => setActive(link.title)}
               >
-                <Link to={`${link.id}`}>{link.title}</Link>
+                <Link to={`${link.id}`}>{t(`navigator.${link.title}`)}</Link>
               </li>
             );
           })}
@@ -69,7 +71,9 @@ const Navbar = () => {
                       setActive(link.title);
                     }}
                   >
-                    <Link to={`${link.id}`}>{link.title}</Link>
+                    <Link to={`${link.id}`}>
+                      {t(`navigator.${link.title}`)}
+                    </Link>
                   </li>
                 );
               })}

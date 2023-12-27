@@ -27,8 +27,18 @@
   "cplaceholder3": "Enter your message",
   "cbutton": "Send",
 
-  "menu": {
-    "menu1": "My Projects",
-    "menu 2": "My Projects 2"
-  }
+  "services": {
+    "webDeveloper": "Web Developer",
+    "reactJSDeveloper": "ReactJS Developer",
+    "angularDeveloper": "Angular Developer",
+    "nodeJSDeveloper": "NodeJS Developer"
+  },
+  "navigator": {
+    "home": "Home",
+    "about": "About",
+    "project": "Project",
+    "certificates": "Certificates",
+    "contact": "Contact"
+  },
+  "experiences": {}
 }

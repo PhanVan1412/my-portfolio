@@ -25,5 +25,20 @@
   "cplaceholder1": "Nhập tên",
   "cplaceholder2": "Nhập email",
   "cplaceholder3": "Nhập tin nhắn",
-  "cbutton": "Gửi"
+  "cbutton": "Gửi",
+
+  "services": {
+    "webDeveloper": "Nhà phát triển Web",
+    "reactJSDeveloper": "Nhà phát triển ReactJS",
+    "angularDeveloper": "Nhà phát triển Angular",
+    "nodeJSDeveloper": "Nhà phát triển NodeJS"
+  },
+
+  "navigator": {
+    "home": "Trang chủ",
+    "about": "Về tôi",
+    "project": "Dự án",
+    "certificates": "Chứng chỉ",
+    "contact": "Liên hệ"
+  }
 }

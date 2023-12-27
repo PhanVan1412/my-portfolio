@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
+import Select from "./Select";
 import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
@@ -37,11 +38,11 @@ const Navbar = () => {
                   hover:text-white text-[18px] font-medium cursor-pointer`}
                 onClick={() => setActive(link.title)}
               >
-                {console.log(link.title)}
                 <Link to={`${link.id}`}>{link.title}</Link>
               </li>
             );
           })}
+          <Select />
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img

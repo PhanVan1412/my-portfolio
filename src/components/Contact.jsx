@@ -16,13 +16,11 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
   const handelChange = (e) => {
-    console.log("this is value contact 22: ", e.target.value);
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
   };
   const handelSubmit = (e) => {
     e.preventDefault();
-    console.log("this emails submit!");
 
     setLoading(true);
     emaijs

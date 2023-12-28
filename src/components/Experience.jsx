@@ -25,7 +25,13 @@ const Experience = () => {
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => {
-            return <ExperienceCard key={index} experience={experience} />;
+            return (
+              <ExperienceCard
+                key={index}
+                experience={experience}
+                index={index}
+              />
+            );
           })}
         </VerticalTimeline>
       </div>

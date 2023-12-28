@@ -15,9 +15,6 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   ptit,
   c1,
@@ -28,6 +25,9 @@ import {
   freelancer,
   onlead,
   mwg,
+  bhx,
+  book,
+  hana,
 } from "../assets";
 
 export const navLinks = [
@@ -211,66 +211,66 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "MWG 2023",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Ant",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: bhx,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Hanaseatrip",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "Wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "PhP",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "HTML",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: hana,
+    source_code_link: "https://hanaseatrip.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Book Store",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "SCSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Git",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: book,
     source_code_link: "https://github.com/",
   },
 ];

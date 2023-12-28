@@ -40,5 +40,85 @@
     "project": "Dự án",
     "certificates": "Chứng chỉ",
     "contact": "Liên hệ"
+  },
+  "experiences": {
+    "experience0": {
+      "title": "Nghiên Cứu Khoa Học",
+      "company_name": "Phòng Thí Nghiệm Hệ Thống IoT",
+      "date": "Tháng 3 năm 2020 - Tháng 4 năm 2021",
+      "points": [
+        "Phát triển và duy trì các ứng dụng web bằng React.js và các công nghệ liên quan khác.",
+        "Cộng tác với các nhóm đa chức năng bao gồm nhà thiết kế, người quản lý sản phẩm và nhà phát triển khác để tạo ra sản phẩm chất lượng cao.",
+        "Triển khai thiết kế đáp ứng và đảm bảo khả năng tương thích giữa nhiều trình duyệt.",
+        "Tham gia đánh giá mã và cung cấp phản hồi mang tính xây dựng cho các nhà phát triển khác."
+      ]
+    },
+    "experience1": {
+      "title": "Phát Triển Wordpress",
+      "company_name": "Onlead",
+      "date": "Tháng 3 năm 2020 - Tháng 4 năm 2021",
+      "points": [
+        "Phát triển và duy trì các ứng dụng web bằng React.js và các công nghệ liên quan khác.",
+        "Cộng tác với các nhóm đa chức năng bao gồm nhà thiết kế, người quản lý sản phẩm và nhà phát triển khác để tạo ra sản phẩm chất lượng cao.",
+        "Triển khai thiết kế đáp ứng và đảm bảo khả năng tương thích giữa nhiều trình duyệt.",
+        "Tham gia đánh giá mã và cung cấp phản hồi mang tính xây dựng cho các nhà phát triển khác."
+      ]
+    },
+    "experience2": {
+      "title": "Phát Triển Web",
+      "company_name": "Freelancer",
+      "date": "Tháng 3 năm 2020 - Tháng 4 năm 2021",
+      "points": [
+        "Phát triển và duy trì các ứng dụng web bằng React.js và các công nghệ liên quan khác.",
+        "Cộng tác với các nhóm đa chức năng bao gồm nhà thiết kế, người quản lý sản phẩm và nhà phát triển khác để tạo ra sản phẩm chất lượng cao.",
+        "Triển khai thiết kế đáp ứng và đảm bảo khả năng tương thích giữa nhiều trình duyệt.",
+        "Tham gia đánh giá mã và cung cấp phản hồi mang tính xây dựng cho các nhà phát triển khác."
+      ]
+    },
+    "experience3": {
+      "title": "Phát Triển Web",
+      "company_name": "MWG",
+      "date": "Tháng 3 năm 2020 - Tháng 4 năm 2021",
+      "points": [
+        "Phát triển và duy trì các ứng dụng web bằng React.js và các công nghệ liên quan khác.",
+        "Cộng tác với các nhóm đa chức năng bao gồm nhà thiết kế, người quản lý sản phẩm và nhà phát triển khác để tạo ra sản phẩm chất lượng cao.",
+        "Triển khai thiết kế đáp ứng và đảm bảo khả năng tương thích giữa nhiều trình duyệt.",
+        "Tham gia đánh giá mã và cung cấp phản hồi mang tính xây dựng cho các nhà phát triển khác."
+      ]
+    }
+  },
+  "testimonials": {
+    "testimonial0": {
+      "testimonial": "Tôi từng nghĩ không thể làm được một website đẹp như sản phẩm của chúng tôi nhưng Phan đã chứng minh tôi đã sai.",
+      "name": "Sara Lee",
+      "designation": "CFO",
+      "company": "Acme Co"
+    },
+    "testimonial1": {
+      "testimonial": "Tôi chưa bao giờ gặp một nhà phát triển web thực sự quan tâm đến thành công của khách hàng như Phan.",
+      "name": "Chris Brown",
+      "designation": "COO",
+      "company": "DEF Corp"
+    },
+    "testimonial2": {
+      "testimonial": "Tôi chưa bao giờ gặp một nhà phát triển web thực sự quan tâm đến thành công của khách hàng như Phan.",
+      "name": "Chris Brown",
+      "designation": "COO",
+      "company": "DEF Corp"
+    }
+  },
+  "projects": {
+    "project0": {
+      "name": "Bách Hóa Xanh",
+      "description": "Nền tảng dựa trên web cho phép người dùng tìm kiếm, đặt chỗ và quản lý dịch vụ thuê xe từ nhiều nhà cung cấp khác nhau, cung cấp giải pháp thuận tiện và hiệu quả cho nhu cầu vận chuyển"
+    },
+    "project1": {
+      "name": "Hanaseatrip",
+      "description": "Ứng dụng web cho phép người dùng tìm kiếm cơ hội việc làm, xem mức lương ước tính cho các vị trí và tìm các công việc có sẵn dựa trên vị trí hiện tại của họ."
+    },
+    "project2": {
+      "name": "Cửa hàng sách",
+      "description": "Một nền tảng đặt vé du lịch toàn diện cho phép người dùng đặt chuyến bay, khách sạn và thuê ô tô, đồng thời đưa ra các đề xuất tuyển chọn về các điểm đến phổ biến."
+    }
   }
 }

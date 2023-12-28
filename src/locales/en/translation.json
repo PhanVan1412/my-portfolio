@@ -40,5 +40,84 @@
     "certificates": "Certificates",
     "contact": "Contact"
   },
-  "experiences": {}
+  "experiences": {
+    "experience0": {
+      "title": "Scientific Research",
+      "company_name": "IoT System Lab PTIT",
+      "date": "March 2020 - April 2021",
+      "points": [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers."
+      ]
+    },
+    "experience1": {
+      "title": "Wordpress Developer",
+      "company_name": "Onlead",
+      "date": "Jan 2021 - Feb 2022",
+      "points": [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers."
+      ]
+    },
+    "experience2": {
+      "title": "Web Developer",
+      "company_name": "Freelancer",
+      "date": "Jan 2022 - Jan 2023",
+      "points": [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers."
+      ]
+    },
+    "experience3": {
+      "title": "Web Developer",
+      "company_name": "MWG",
+      "date": "Jan 2023 - Present",
+      "points": [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers."
+      ]
+    }
+  },
+  "testimonials": {
+    "testimonial0": {
+      "testimonial": "I thought it was impossible to make a website as beautiful as our product, but Phan proved me wrong.",
+      "name": "Sara Lee",
+      "designation": "CFO",
+      "company": "Acme Co"
+    },
+    "testimonial1": {
+      "testimonial": "I've never met a web developer who truly cares about their clients' success like Phan does.",
+      "name": "Chris Brown",
+      "designation": "COO",
+      "company": "DEF Corp"
+    },
+    "testimonial2": {
+      "testimonial": "I've never met a web developer who truly cares about their clients' success like Phan does.",
+      "name": "Chris Brown",
+      "designation": "COO",
+      "company": "DEF Corp"
+    }
+  },
+  "projects": {
+    "project0": {
+      "name": "Green department store",
+      "description": "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs."
+    },
+    "project1": {
+      "name": "Hanaseatrip",
+      "description": "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location."
+    },
+    "project2": {
+      "name": "Book Store",
+      "description": "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations."
+    }
+  }
 }

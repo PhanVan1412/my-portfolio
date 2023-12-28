@@ -26,9 +26,9 @@ import onlead from "./company/onlead.png";
 import freelancer from "./company/freelancer.png";
 import mwg from "./company/mwg.webp";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import bhx from "./bhx.png";
+import book from "./pro1.jpg";
+import hana from "./pro2.jpg";
 
 import c1 from "./c1.png";
 import c2 from "./c2.png";
@@ -57,9 +57,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   c1,
   c2,
   c3,
@@ -69,4 +66,7 @@ export {
   onlead,
   freelancer,
   mwg,
+  bhx,
+  book,
+  hana,
 };

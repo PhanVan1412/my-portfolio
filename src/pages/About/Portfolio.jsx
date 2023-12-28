@@ -1,4 +1,4 @@
-import { Works, Tech } from "../components";
+import { Works, Tech } from "../../components";
 
 const Portfolio = () => {
   return (

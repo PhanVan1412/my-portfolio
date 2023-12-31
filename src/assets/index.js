@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -35,6 +35,10 @@ import c2 from "./c2.png";
 import c3 from "./c3.png";
 import c4 from "./c4.png";
 import c5 from "./certificate-coursera.png";
+import mwg01 from "./cer_mwg01.png";
+import mwg02 from "./cer_mwg02.png";
+import mwg03 from "./cer_mwg03.jpg";
+
 export {
   logo,
   backend,
@@ -69,4 +73,7 @@ export {
   bhx,
   book,
   hana,
+  mwg01,
+  mwg02,
+  mwg03,
 };

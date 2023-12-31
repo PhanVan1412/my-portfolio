@@ -50,7 +50,6 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          console(error);
           alert("Something went wrong.");
         }
       );

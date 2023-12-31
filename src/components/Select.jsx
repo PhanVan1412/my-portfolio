@@ -6,7 +6,6 @@ const Select = () => {
   const { i18n } = useTranslation();
 
   const handleLanguageChange = (e) => {
-    console.log("check language change line 9", e.target.value);
     i18n.changeLanguage(e.target.value);
     setSelectedLanguage(e.target.value);
   };

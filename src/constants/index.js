@@ -121,32 +121,19 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "Scientific Research",
-    company_name: "IoT System Lab PTIT",
-    icon: ptit,
+    title: "Web Developer",
+    company_name: "MWG",
+    icon: mwg,
     iconBg: "#E6DEDD",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Wordpress Developer",
-    company_name: "Onlead",
-    icon: onlead,
-    iconBg: "#f0f0f0",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -168,11 +155,24 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "MWG",
-    icon: mwg,
+    title: "Wordpress Developer",
+    company_name: "Onlead",
+    icon: onlead,
+    iconBg: "#f0f0f0",
+    date: "Jan 2021 - Feb 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Scientific Research",
+    company_name: "IoT System Lab PTIT",
+    icon: ptit,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

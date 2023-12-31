@@ -42,7 +42,7 @@
     "contact": "Liên hệ"
   },
   "experiences": {
-    "experience0": {
+    "experience3": {
       "title": "Nghiên Cứu Khoa Học",
       "company_name": "Phòng Thí Nghiệm Hệ Thống IoT",
       "date": "Tháng 3 năm 2020 - Tháng 4 năm 2021",
@@ -53,7 +53,7 @@
         "Tham gia đánh giá mã và cung cấp phản hồi mang tính xây dựng cho các nhà phát triển khác."
       ]
     },
-    "experience1": {
+    "experience2": {
       "title": "Phát Triển Wordpress",
       "company_name": "Onlead",
       "date": "Tháng 3 năm 2020 - Tháng 4 năm 2021",
@@ -64,7 +64,7 @@
         "Tham gia đánh giá mã và cung cấp phản hồi mang tính xây dựng cho các nhà phát triển khác."
       ]
     },
-    "experience2": {
+    "experience1": {
       "title": "Phát Triển Web",
       "company_name": "Freelancer",
       "date": "Tháng 3 năm 2020 - Tháng 4 năm 2021",
@@ -75,7 +75,7 @@
         "Tham gia đánh giá mã và cung cấp phản hồi mang tính xây dựng cho các nhà phát triển khác."
       ]
     },
-    "experience3": {
+    "experience0": {
       "title": "Phát Triển Web",
       "company_name": "MWG",
       "date": "Tháng 3 năm 2020 - Tháng 4 năm 2021",
@@ -120,5 +120,12 @@
       "name": "Cửa hàng sách",
       "description": "Một nền tảng đặt vé du lịch toàn diện cho phép người dùng đặt chuyến bay, khách sạn và thuê ô tô, đồng thời đưa ra các đề xuất tuyển chọn về các điểm đến phổ biến."
     }
+  },
+  "about_page": {
+    "sub_title": "Tổng quan",
+    "title": "Giới thiệu",
+    "desc_1": "I am an enthusiastic and dynamic person, driven by a passion for continuous learning and problem-solving My friendly and approachable nature allows me to effortlessly connect with those around me, fostering positive relationships in both personal and professional settings",
+    "desc_2": "I thrive on challenges, always eager to explore new opportunities for growth and development. Perseverance is at the core of my mindset—I approach obstacles with determination, constantly seeking innovative solutions. Embracing a positive outlook, I believe in the power of collaboration and am committed to creating a harmonious environment wherever I go.",
+    "desc_3": "I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Angular, and NodeJS. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!"
   }
 }

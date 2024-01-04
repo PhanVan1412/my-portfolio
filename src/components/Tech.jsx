@@ -4,7 +4,7 @@ import { technologies } from "../constants";
 
 const Tech = () => {
   return (
-    <div className="flex flex-row flex-wrap justify-content gap-10">
+    <div className="flex flex-row flex-wrap lg:justify-start justify-center gap-10">
       {technologies.map((technology) => {
         return (
           <div className="w-28 h-28" key={technology.name}>

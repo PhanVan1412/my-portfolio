@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { Fragment } from "react";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
@@ -10,7 +11,7 @@ import ProjectCard from "./Card/ProjectCard";
 const Works = () => {
   const { t } = useTranslation();
   return (
-    <>
+    <Fragment>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>{t("subTitle3")}</p>
         <h2 className={styles.sectionHeadText}>{t("title3")}</h2>
@@ -30,7 +31,7 @@ const Works = () => {
           );
         })}
       </div>
-    </>
+    </Fragment>
   );
 };
 

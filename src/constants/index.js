@@ -303,6 +303,38 @@ const certificates = [
   },
 ];
 
+const tabs = [
+  {
+    id: 1,
+    title: "all",
+    name: "All",
+  },
+  {
+    id: 2,
+    title: "reactjs",
+    name: "ReactJS",
+  },
+  {
+    id: 3,
+    title: "angular",
+    name: "Angular",
+  },
+  {
+    id: 4,
+    title: "react native",
+    name: "React Native",
+  },
+  {
+    id: 5,
+    title: "wordpress",
+    name: "Wordpress",
+  },
+  {
+    id: 6,
+    name: "HTML",
+  },
+];
+
 export {
   services,
   technologies,
@@ -310,4 +342,5 @@ export {
   testimonials,
   projects,
   certificates,
+  tabs,
 };

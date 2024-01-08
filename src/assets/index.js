@@ -39,6 +39,9 @@ import mwg01 from "./cer_mwg01.png";
 import mwg02 from "./cer_mwg02.png";
 import mwg03 from "./cer_mwg03.jpg";
 
+import vi from "./vi.png";
+import en from "./en.png";
+
 export {
   logo,
   backend,
@@ -76,4 +79,6 @@ export {
   mwg01,
   mwg02,
   mwg03,
+  vi,
+  en,
 };

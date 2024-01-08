@@ -2,14 +2,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../utils/motion";
 import { useTranslation } from "react-i18next";
 
-const FeedbackCard = ({
-  index,
-  testimonial,
-  name,
-  designation,
-  image,
-  company,
-}) => {
+const FeedbackCard = ({ index, name, designation, image, company }) => {
   const { t } = useTranslation();
   return (
     <motion.div

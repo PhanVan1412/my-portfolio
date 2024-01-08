@@ -1,21 +1,12 @@
 import { Tilt } from "react-tilt";
-import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-import { fadeIn } from "../../utils/motion";
 import { github } from "../../assets";
 
-const ProjectCard = ({
-  index,
-  name,
-  description,
-  tags,
-  image,
-  source_code_link,
-}) => {
+const ProjectCard = ({ index, name, tags, image, source_code_link }) => {
   const { t } = useTranslation();
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <div>
       <Tilt
         options={{
           max: 45,
@@ -45,10 +36,10 @@ const ProjectCard = ({
         </div>
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">
-            {t(`projects.project${index}.name`)}
+            {t(`allProjects.project${index}.name`)}
           </h3>
           <p className="mt-2 text-secondary text-[14px]">
-            {t(`projects.project${index}.description`)}
+            {t(`allProjects.project${index}.description`)}
           </p>
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
@@ -61,7 +52,7 @@ const ProjectCard = ({
           })}
         </div>
       </Tilt>
-    </motion.div>
+    </div>
   );
 };
 export default ProjectCard;

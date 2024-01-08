@@ -3,12 +3,10 @@ import { motion } from "framer-motion";
 import emaijs from "@emailjs/browser";
 import { useTranslation } from "react-i18next";
 
-import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
-import { SectionWrapper } from "../hoc";
-import { slideIn } from "../utils/motion";
+import { EarthCanvas } from "../../../components";
+import { slideIn } from "../../../utils/motion";
 
-const Contact = () => {
+const ContactForm = () => {
   const { t } = useTranslation();
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -61,13 +59,10 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-        <p className={styles.sectionSubText}>{t("subTitle5")}</p>
-        <h3 className={styles.sectionHeadText}>{t("title5")}</h3>
-
         <form
           ref={formRef}
           onSubmit={handelSubmit}
-          className="mt-12 flex flex-col gap-8"
+          className="flex flex-col gap-8"
         >
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">{t("clabel1")}</span>
@@ -122,4 +117,4 @@ const Contact = () => {
   );
 };
 
-export default SectionWrapper(Contact, "contact");
+export default ContactForm;

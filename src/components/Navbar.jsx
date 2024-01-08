@@ -46,7 +46,8 @@ const Navbar = () => {
           })}
           <Select />
         </ul>
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="sm:hidden flex flex-1 justify-end items-center gap-1">
+          <Select />
           <img
             src={!toggle ? menu : close}
             alt="menu"

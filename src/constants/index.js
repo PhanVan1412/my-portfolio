@@ -275,6 +275,141 @@ const projects = [
   },
 ];
 
+const allProjects = [
+  {
+    name: "MWG 2023",
+    type: "ReactJS",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Ant",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bhx,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Hanaseatrip",
+    type: "Wordpress",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PhP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hana,
+    source_code_link: "https://hanaseatrip.com/",
+  },
+  {
+    name: "Book Store",
+    type: "HTML",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Git",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: book,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "MWG 2023",
+    type: "Angular",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Ant",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bhx,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Hanaseatrip",
+    type: "React Native",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PhP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hana,
+    source_code_link: "https://hanaseatrip.com/",
+  },
+  {
+    name: "Book Store 123",
+    type: "HTML",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Git",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: book,
+    source_code_link: "https://github.com/",
+  },
+];
+
 const certificates = [
   {
     id: 1,
@@ -343,4 +478,5 @@ export {
   projects,
   certificates,
   tabs,
+  allProjects,
 };

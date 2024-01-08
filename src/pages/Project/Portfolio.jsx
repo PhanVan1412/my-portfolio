@@ -3,19 +3,27 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 import { textVariant, fadeIn } from "../../utils/motion";
-import { Works, Tech } from "../../components";
 import { BallCanvas } from "../../components/canvas";
 import { SectionWrapper } from "../../hoc";
 import { styles } from "../../styles";
 import Projects from "./Components/Projects";
 import TabCard from "./Components/TabCard";
-import { technologies, tabs } from "../../constants";
+import { technologies, tabs, allProjects } from "../../constants";
 
 const Portfolio = () => {
   const [tabActive, setTabActive] = useState("All");
+  const [projects, setProjects] = useState(allProjects);
   const { t } = useTranslation();
   const onActiveTab = (name) => {
-    console.log(name);
+    if (name === "All") {
+      setProjects(allProjects);
+    } else {
+      const projectsFilter = allProjects.filter(
+        (project) => project.type === name
+      );
+      setProjects(projectsFilter);
+    }
+
     setTabActive(name);
   };
   return (
@@ -39,12 +47,12 @@ const Portfolio = () => {
                 index={tab.id}
                 onTab={onActiveTab}
                 isTab={tabActive}
-                key={tab.index}
+                key={`tab-${tab.id}`}
               />
             );
           })}
         </div>
-        <Projects />
+        <Projects projects={projects} />
       </div>
       <div className="flex flex-row flex-wrap lg:justify-start justify-center gap-10 mt-16">
         {technologies.map((technology) => {

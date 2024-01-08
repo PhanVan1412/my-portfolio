@@ -121,11 +121,49 @@
       "description": "Một nền tảng đặt vé du lịch toàn diện cho phép người dùng đặt chuyến bay, khách sạn và thuê ô tô, đồng thời đưa ra các đề xuất tuyển chọn về các điểm đến phổ biến."
     }
   },
-  "about_page": {
+  "allProjects": {
+    "project0": {
+      "name": "Bách Hóa Xanh",
+      "description": "Ứng dụng web cho phép người dùng tìm kiếm cơ hội việc làm, xem mức lương ước tính cho các vị trí và tìm các công việc có sẵn dựa trên vị trí hiện tại của họ."
+    },
+    "project1": {
+      "name": "Hanaseatrip",
+      "description": "Ứng dụng web cho phép người dùng tìm kiếm cơ hội việc làm, xem mức lương ước tính cho các vị trí và tìm các công việc có sẵn dựa trên vị trí hiện tại của họ."
+    },
+    "project2": {
+      "name": "Cửa hàng sách",
+      "description": "Ứng dụng web cho phép người dùng tìm kiếm cơ hội việc làm, xem mức lương ước tính cho các vị trí và tìm các công việc có sẵn dựa trên vị trí hiện tại của họ."
+    },
+    "project3": {
+      "name": "Portfolio",
+      "description": "Ứng dụng web cho phép người dùng tìm kiếm cơ hội việc làm, xem mức lương ước tính cho các vị trí và tìm các công việc có sẵn dựa trên vị trí hiện tại của họ."
+    },
+    "project4": {
+      "name": "Hanaseatrip",
+      "description": "Ứng dụng web cho phép người dùng tìm kiếm cơ hội việc làm, xem mức lương ước tính cho các vị trí và tìm các công việc có sẵn dựa trên vị trí hiện tại của họ."
+    },
+    "project5": {
+      "name": "Gym Website",
+      "description": "Ứng dụng web cho phép người dùng tìm kiếm cơ hội việc làm, xem mức lương ước tính cho các vị trí và tìm các công việc có sẵn dựa trên vị trí hiện tại của họ."
+    }
+  },
+  "about": {
     "sub_title": "Tổng quan",
     "title": "Giới thiệu",
-    "desc_1": "I am an enthusiastic and dynamic person, driven by a passion for continuous learning and problem-solving My friendly and approachable nature allows me to effortlessly connect with those around me, fostering positive relationships in both personal and professional settings",
-    "desc_2": "I thrive on challenges, always eager to explore new opportunities for growth and development. Perseverance is at the core of my mindset—I approach obstacles with determination, constantly seeking innovative solutions. Embracing a positive outlook, I believe in the power of collaboration and am committed to creating a harmonious environment wherever I go.",
-    "desc_3": "I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Angular, and NodeJS. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!"
+    "desc1": "Tôi là một người nhiệt tình và năng động, được thúc đẩy bởi niềm đam mê học hỏi không ngừng và giải quyết vấn đề Bản chất thân thiện và dễ gần của tôi cho phép tôi dễ dàng kết nối với những người xung quanh, thúc đẩy các mối quan hệ tích cực trong cả môi trường cá nhân và nghề nghiệp",
+    "desc2": "Tôi phát triển mạnh mẽ trước những thử thách, luôn mong muốn khám phá những cơ hội mới để tăng trưởng và phát triển. Sự kiên trì là cốt lõi trong suy nghĩ của tôi—Tôi tiếp cận những trở ngại bằng quyết tâm, không ngừng tìm kiếm các giải pháp đổi mới. Với quan điểm tích cực, tôi tin tưởng vào sức mạnh của sự hợp tác và cam kết tạo ra một môi trường hài hòa ở bất cứ nơi nào tôi đến.",
+    "desc3": "Tôi là một nhà phát triển phần mềm lành nghề, có kinh nghiệm về TypeScript và JavaScript, đồng thời có chuyên môn về các framework như React, Angular và NodeJS. Tôi là người học hỏi nhanh và cộng tác chặt chẽ với khách hàng để tạo ra các giải pháp hiệu quả, có thể mở rộng và thân thiện với người dùng nhằm giải quyết các vấn đề trong thế giới thực. Hãy cùng nhau làm việc để biến ý tưởng của bạn thành hiện thực!",
+    "desc4": "Tôi là một nhà phát triển phần mềm lành nghề, có kinh nghiệm về TypeScript và JavaScript, đồng thời có chuyên môn về các framework như React, Angular và NodeJS. Tôi là người học hỏi nhanh và cộng tác chặt chẽ với khách hàng để tạo ra các giải pháp hiệu quả, có thể mở rộng và thân thiện với người dùng nhằm giải quyết các vấn đề trong thế giới thực. Hãy cùng nhau làm việc để biến ý tưởng của bạn thành hiện thực!",
+    "desc5": "Tôi là một nhà phát triển phần mềm lành nghề, có kinh nghiệm về TypeScript và JavaScript, đồng thời có chuyên môn về các framework như React, Angular và NodeJS. Tôi là người học hỏi nhanh và cộng tác chặt chẽ với khách hàng để tạo ra các giải pháp hiệu quả, có thể mở rộng và thân thiện với người dùng nhằm giải quyết các vấn đề trong thế giới thực. Hãy cùng nhau làm việc để biến ý tưởng của bạn thành hiện thực!",
+    "desc6": "Tôi là một nhà phát triển phần mềm lành nghề, có kinh nghiệm về TypeScript và JavaScript, đồng thời có chuyên môn về các framework như React, Angular và NodeJS. Tôi là người học hỏi nhanh và cộng tác chặt chẽ với khách hàng để tạo ra các giải pháp hiệu quả, có thể mở rộng và thân thiện với người dùng nhằm giải quyết các vấn đề trong thế giới thực. Hãy cùng nhau làm việc để biến ý tưởng của bạn thành hiện thực!"
+  },
+  "certificate": {
+    "sub_title": "Tổng quan",
+    "title": "Chứng chỉ",
+    "desc": "Tôi là một nhà phát triển phần mềm lành nghề, có kinh nghiệm về TypeScript và JavaScript, đồng thời có kiến thức chuyên môn về các framework như React, Node.js và Three.js. Tôi là người học hỏi nhanh và cộng tác chặt chẽ với khách hàng để tạo ra các giải pháp hiệu quả, có thể mở rộng và thân thiện với người dùng nhằm giải quyết các vấn đề trong thế giới thực. Hãy cùng nhau làm việc để biến ý tưởng của bạn thành hiện thực!"
+  },
+  "contact": {
+    "sub_title": "kết nối với mình",
+    "title": "Liên hệ"
   }
 }

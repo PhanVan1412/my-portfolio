@@ -1,12 +1,8 @@
-import React from "react";
-import { useTranslation } from "react-i18next";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../../utils/motion";
-import { tabs } from "../../../constants";
 
 const TabCard = ({ name, index, onTab, isTab }) => {
-  console.log("check index: " + index);
   return (
     <Tilt>
       <motion.div

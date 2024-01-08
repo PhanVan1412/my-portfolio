@@ -120,11 +120,46 @@
       "description": "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations."
     }
   },
-  "about_page": {
+  "allProjects": {
+    "project0": {
+      "name": "Green department store",
+      "description": "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs."
+    },
+    "project1": {
+      "name": "Hanaseatrip",
+      "description": "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location."
+    },
+    "project2": {
+      "name": "Book Store",
+      "description": "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations."
+    },
+    "project3": {
+      "name": "Test 01",
+      "description": "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs."
+    },
+    "project4": {
+      "name": "Test 02",
+      "description": "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location."
+    },
+    "project5": {
+      "name": "Test 03",
+      "description": "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations."
+    }
+  },
+  "about": {
     "sub_title": "Overview",
     "title": "Intromation",
-    "desc_1": "I am an enthusiastic and dynamic person, driven by a passion for continuous learning and problem-solving. My friendly and approachable nature allows me to effortlessly connect with those around me, fostering positive relationships in both personal and professional settings",
-    "desc_2": "I thrive on challenges, always eager to explore new opportunities for growth and development. Perseverance is at the core of my mindset—I approach obstacles with determination, constantly seeking innovative solutions. Embracing a positive outlook, I believe in the power of collaboration and am committed to creating a harmonious environment wherever I go.",
-    "desc_3": "I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Angular, and NodeJS. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!"
+    "desc1": "I am an enthusiastic and dynamic person, driven by a passion for continuous learning and problem-solving. My friendly and approachable nature allows me to effortlessly connect with those around me, fostering positive relationships in both personal and professional settings",
+    "desc2": "I thrive on challenges, always eager to explore new opportunities for growth and development. Perseverance is at the core of my mindset—I approach obstacles with determination, constantly seeking innovative solutions. Embracing a positive outlook, I believe in the power of collaboration and am committed to creating a harmonious environment wherever I go.",
+    "desc3": "I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Angular, and NodeJS. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!"
+  },
+  "certificate": {
+    "sub_title": "Overview",
+    "title": "Certificates",
+    "desc": "I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!"
+  },
+  "contact": {
+    "sub_title": "Get in touch",
+    "title": "Contact"
   }
 }

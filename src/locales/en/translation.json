@@ -126,23 +126,31 @@
       "description": "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs."
     },
     "project1": {
+      "name": "Green department store",
+      "description": "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs."
+    },
+    "project2": {
       "name": "Hanaseatrip",
       "description": "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location."
     },
-    "project2": {
+    "project3": {
       "name": "Book Store",
       "description": "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations."
     },
-    "project3": {
-      "name": "Test 01",
+    "project4": {
+      "name": "Portfolio",
       "description": "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs."
     },
-    "project4": {
-      "name": "Test 02",
+    "project5": {
+      "name": "Angular",
       "description": "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location."
     },
-    "project5": {
-      "name": "Test 03",
+    "project6": {
+      "name": "Gym Website",
+      "description": "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations."
+    },
+    "project7": {
+      "name": "Test 4",
       "description": "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations."
     }
   },

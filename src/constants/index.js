@@ -277,6 +277,7 @@ const projects = [
 
 const allProjects = [
   {
+    id: 1,
     name: "MWG 2023",
     type: "ReactJS",
     description:
@@ -299,6 +300,7 @@ const allProjects = [
     source_code_link: "https://github.com/",
   },
   {
+    id: 2,
     name: "Hanaseatrip",
     type: "Wordpress",
     description:
@@ -321,6 +323,7 @@ const allProjects = [
     source_code_link: "https://hanaseatrip.com/",
   },
   {
+    id: 3,
     name: "Book Store",
     type: "HTML",
     description:
@@ -343,6 +346,7 @@ const allProjects = [
     source_code_link: "https://github.com/",
   },
   {
+    id: 4,
     name: "MWG 2023",
     type: "Angular",
     description:
@@ -365,6 +369,7 @@ const allProjects = [
     source_code_link: "https://github.com/",
   },
   {
+    id: 5,
     name: "Hanaseatrip",
     type: "React Native",
     description:
@@ -387,6 +392,7 @@ const allProjects = [
     source_code_link: "https://hanaseatrip.com/",
   },
   {
+    id: 6,
     name: "Book Store 123",
     type: "HTML",
     description:

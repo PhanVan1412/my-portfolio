@@ -5,9 +5,13 @@ const Projects = ({ projects }) => {
   return (
     <div className="w-full">
       <div className="mt-5 flex flex-wrap gap-7">
-        {projects.map((project, index) => {
+        {projects.map((project) => {
           return (
-            <ProjectCard key={`project-${index}`} index={index} {...project} />
+            <ProjectCard
+              key={`project-${project.id}`}
+              index={project.id}
+              {...project}
+            />
           );
         })}
       </div>

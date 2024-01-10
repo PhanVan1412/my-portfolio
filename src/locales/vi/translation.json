@@ -127,22 +127,26 @@
       "description": "Ứng dụng web cho phép người dùng tìm kiếm cơ hội việc làm, xem mức lương ước tính cho các vị trí và tìm các công việc có sẵn dựa trên vị trí hiện tại của họ."
     },
     "project1": {
-      "name": "Hanaseatrip",
+      "name": "Bách Hóa Xanh",
       "description": "Ứng dụng web cho phép người dùng tìm kiếm cơ hội việc làm, xem mức lương ước tính cho các vị trí và tìm các công việc có sẵn dựa trên vị trí hiện tại của họ."
     },
     "project2": {
-      "name": "Cửa hàng sách",
-      "description": "Ứng dụng web cho phép người dùng tìm kiếm cơ hội việc làm, xem mức lương ước tính cho các vị trí và tìm các công việc có sẵn dựa trên vị trí hiện tại của họ."
-    },
-    "project3": {
-      "name": "Portfolio",
-      "description": "Ứng dụng web cho phép người dùng tìm kiếm cơ hội việc làm, xem mức lương ước tính cho các vị trí và tìm các công việc có sẵn dựa trên vị trí hiện tại của họ."
-    },
-    "project4": {
       "name": "Hanaseatrip",
       "description": "Ứng dụng web cho phép người dùng tìm kiếm cơ hội việc làm, xem mức lương ước tính cho các vị trí và tìm các công việc có sẵn dựa trên vị trí hiện tại của họ."
     },
+    "project3": {
+      "name": "Cửa hàng sách",
+      "description": "Ứng dụng web cho phép người dùng tìm kiếm cơ hội việc làm, xem mức lương ước tính cho các vị trí và tìm các công việc có sẵn dựa trên vị trí hiện tại của họ."
+    },
+    "project4": {
+      "name": "Portfolio",
+      "description": "Ứng dụng web cho phép người dùng tìm kiếm cơ hội việc làm, xem mức lương ước tính cho các vị trí và tìm các công việc có sẵn dựa trên vị trí hiện tại của họ."
+    },
     "project5": {
+      "name5": "Angular",
+      "description": "Ứng dụng web cho phép người dùng tìm kiếm cơ hội việc làm, xem mức lương ước tính cho các vị trí và tìm các công việc có sẵn dựa trên vị trí hiện tại của họ."
+    },
+    "project6": {
       "name": "Gym Website",
       "description": "Ứng dụng web cho phép người dùng tìm kiếm cơ hội việc làm, xem mức lương ước tính cho các vị trí và tìm các công việc có sẵn dựa trên vị trí hiện tại của họ."
     }

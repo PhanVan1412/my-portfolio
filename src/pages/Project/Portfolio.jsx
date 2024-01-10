@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import { Fragment, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
@@ -14,6 +14,9 @@ const Portfolio = () => {
   const [tabActive, setTabActive] = useState("All");
   const [projects, setProjects] = useState(allProjects);
   const { t } = useTranslation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const onActiveTab = (name) => {
     if (name === "All") {
       setProjects(allProjects);

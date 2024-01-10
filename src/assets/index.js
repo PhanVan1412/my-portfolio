@@ -42,6 +42,8 @@ import mwg03 from "./cer_mwg03.jpg";
 import vi from "./vi.png";
 import en from "./en.png";
 
+import bot from "./chatbot.gif";
+
 export {
   logo,
   backend,
@@ -81,4 +83,5 @@ export {
   mwg03,
   vi,
   en,
+  bot,
 };

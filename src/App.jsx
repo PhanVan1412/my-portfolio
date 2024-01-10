@@ -6,11 +6,12 @@ import AboutPage from "./pages/About/AboutPage";
 import Portfolio from "./pages/Project/Portfolio";
 import Certificates from "./pages/Certificates/Certificates";
 import ContactPage from "./pages/Contact/ContactPage";
+import { bot } from "./assets/index";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-primary">
+      <div className="relative z-0 bg-primary overflow-hidden">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
         </div>

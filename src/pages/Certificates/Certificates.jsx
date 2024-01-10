@@ -1,8 +1,8 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { SectionWrapper } from "../../hoc";
 
+import { SectionWrapper } from "../../hoc";
 import { styles } from "../../styles";
 import CertificateCard from "./Components/CertificateCard";
 import { certificates } from "../../constants";
@@ -10,6 +10,9 @@ import { fadeIn, textVariant } from "../../utils/motion";
 
 const Certificates = () => {
   const { t } = useTranslation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Fragment>
       <motion.div variants={textVariant()}>

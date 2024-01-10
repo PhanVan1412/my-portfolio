@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import {
   About,
   Contact,
@@ -10,8 +11,12 @@ import {
 } from "../../components";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <>
+    <div className="relative">
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         <Hero />
       </div>
@@ -24,7 +29,7 @@ const Home = () => {
         <Contact />
         <StarsCanvas />
       </div>
-    </>
+    </div>
   );
 };
 

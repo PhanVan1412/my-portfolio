@@ -25,34 +25,38 @@ const Contact = () => {
     e.preventDefault();
 
     setLoading(true);
-    emaijs
-      .send(
-        "service_s7jl9hl",
-        "template_5bi7xsf",
-        {
-          from_name: form.name,
-          to_name: "P&T",
-          from_email: form.email,
-          to_email: "austinphan2022@gmail.com",
-          message: form.message,
-        },
-        "n2DXqgt7TsC4NAGxy"
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        () => {
-          setLoading(false);
-          alert("Something went wrong.");
-        }
-      );
+    if (form.name !== "" && form.email !== "") {
+      emaijs
+        .send(
+          "service_s7jl9hl",
+          "template_5bi7xsf",
+          {
+            from_name: form.name,
+            to_name: "P&T",
+            from_email: form.email,
+            to_email: "austinphan2022@gmail.com",
+            message: form.message,
+          },
+          "n2DXqgt7TsC4NAGxy"
+        )
+        .then(
+          () => {
+            setLoading(false);
+            alert("Thank you. I will get back to you as soon as possible.");
+            setForm({
+              name: "",
+              email: "",
+              message: "",
+            });
+          },
+          () => {
+            setLoading(false);
+            alert("Something went wrong.");
+          }
+        );
+    } else {
+      alert("Please enter a name and email!");
+    }
   };
 
   return (
